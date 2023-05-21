@@ -86,3 +86,37 @@ main{
   text-transform: uppercase;
   font-size: larger;
 }
+
+@media(max-width: 1317px){
+  .character-image{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media(max-width: 1024px){
+  main{
+    grid-template-columns: auto auto;
+  }
+  .character-image{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media(max-width: 864px){
+  main{
+    grid-template-columns: auto;
+  }
+  .character-image{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media(max-width: 435px){
+  .character-image{
+    width: 300px;
+    height: 300px;
+  }
+}
